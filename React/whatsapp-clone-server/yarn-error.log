@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/Cellar/node/12.11.1/bin/node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js start
+
+PATH: 
+  ./bin:./node_modules/.bin:/anaconda3/bin:/Users/a56z/anaconda3/bin:/Users/a56z/.rbenv/shims:/Users/a56z/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/usr/local/sbin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/a56z/code/a56z/React/whatsapp-clone-server/package.json: Unexpected string in JSON at position 122
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "whatsapp-clone-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "private": true
+  }
+  
+  "scripts": {
+    "start": "node index.js"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
