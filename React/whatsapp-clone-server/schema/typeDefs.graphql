@@ -5,12 +5,16 @@ type Message {
   content: String!
   createdAt: Date!
 }
+
 type Chat {
   id: ID!
   name: String!
   picture: URL
   lastMessage: Message
+  messages: [Message!]!
 }
+
 type Query {
   chats: [Chat!]!
+  chat(chatId: ID!): Chat
 }

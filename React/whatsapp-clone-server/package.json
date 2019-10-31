@@ -27,13 +27,16 @@
     "typescript": "3.6.4"
   },
   "dependencies": {
+    "@types/history": "^4.7.3",
     "apollo-server-express": "^2.9.7",
     "cors": "^2.8.5",
     "express": "4.17.1",
     "graphql": "^14.5.8",
     "graphql-import": "^0.7.1",
     "graphql-scalars": "^1.0.4",
-    "graphql-tools": "^4.0.6"
+    "graphql-tools": "^4.0.6",
+    "history": "^4.10.1",
+    "react-router-transition": "^2.0.0"
   },
   "jest": {
     "transform": {
